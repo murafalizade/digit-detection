@@ -1,6 +1,5 @@
 import {Header} from "./components/Header.tsx";
 import { DrawingCanvas } from "./components/DrawingCanvas.tsx";
-import {PredictionResult} from "./components/PredictionResult.tsx";
 
 
 export default function App() {
@@ -11,7 +10,6 @@ export default function App() {
 
             <div style={{ display: "flex", flex: 1 }}>
                 <DrawingCanvas />
-                <PredictionResult />
             </div>
         </div>
     );
